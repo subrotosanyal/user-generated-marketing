@@ -6,7 +6,10 @@ const images = [
   '/images/icebucket-challenge-3.avif',
   '/images/icebucket-challenge-4.webp',
   '/images/icebucket-challenge-5.jpg',
-    '/images/icebucket-challenge-6.webp'
+  '/images/icebucket-challenge-6.webp',
+  '/images/icebucket-challenge-7.jpg',
+  '/images/icebucket-challenge-8.jpeg',
+  '/images/icebucket-challenge-9.jpg',
 ];
 
 export const ImageCollage: React.FC = () => {
