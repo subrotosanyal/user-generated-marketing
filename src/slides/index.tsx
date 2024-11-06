@@ -120,5 +120,18 @@ export const slides = [
                 </div>
             </Slide>
         )
+    },
+    {
+        content: (
+            <div>
+                <h2 className="text-3xl font-bold mb-6">References</h2>
+                <ul>
+                    <li>🔗 <a href="https://www.wikishark.com/?text_search=&values=4615356%2C7709432%2C13310809%2C35526534&search=&year=0&validate=1&view=2&gtype=0&factors=" target="_blank" rel="noopener noreferrer">Wikishark</a></li>
+                    <li>🔗 <a href="https://www.researchgate.net/publication/372498477_Social_Media_Marketing_Performance_Analysis_of_the_Ice_Bucket_Challenge" target="_blank" rel="noopener noreferrer">ResearchGate</a></li>
+                    <li>🔗 <a href="https://www.als.org/understanding-als/what-is-als" target="_blank" rel="noopener noreferrer">ALS Association</a></li>
+                    <li>🔗 <a href="https://www.cpajournal.com/2017/08/16/redeeming-value-social-media-ice-bucket-challenge-invigorated-als-association/" target="_blank" rel="noopener noreferrer">CPA Journal</a></li>
+                </ul>
+            </div>
+        )
     }
 ];
