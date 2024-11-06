@@ -116,6 +116,8 @@ export const slides = [
                         <li key="2">Lay’s <strong>"Do Us a Flavor" 🍟</strong></li>
                         <li key="3">GoPro <strong>"Be a Hero" 📷</strong></li>
                         <li key="4">Dove’s <strong>"Real Beauty" 💄</strong></li>
+                        <li key="5">Apple’s <strong>"Shot on iPhone" 📱</strong></li>
+                        <li key="6"><strong>#Redone 🎥</strong></li>
                     </ul>
                 </div>
             </Slide>
