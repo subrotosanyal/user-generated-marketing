@@ -1,3 +1,4 @@
+/* src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,4 +10,32 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+.toggle-theme-btn {
+  display: none;
+}
+
+.presentation {
+  background-color: white;
+  color: black;
+}
+
+.slide {
+  background-color: white;
+  color: black;
+}
+
+.prose ul li {
+  color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
 }

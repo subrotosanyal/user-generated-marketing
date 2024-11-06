@@ -1,7 +1,6 @@
 export const processCSVData = (csvData: string) => {
   const lines = csvData.trim().split('\n');
-  const headers = lines[0].split(',').map(h => h.replace(/['"]/g, ''));
-  
+
   return lines.slice(1).map(line => {
     const values = line.split(',').map(v => v.replace(/['"]/g, ''));
     return {

@@ -1,0 +1,6 @@
+.slide.large-slide {
+  width: 100%;
+  height: 80vh; /* Adjust the height as needed */
+  padding: 20px;
+  box-sizing: border-box;
+}

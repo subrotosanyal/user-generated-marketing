@@ -1,15 +1,17 @@
 import { motion } from 'framer-motion';
 
 const images = [
-  'https://example.com/ice-bucket1.jpg',
-  'https://example.com/ice-bucket2.jpg',
-  'https://example.com/ice-bucket3.jpg',
-  'https://example.com/ice-bucket4.jpg'
+  '/images/icebucket-challenge-1.webp',
+  '/images/icebucket-challenge-2.jpg',
+  '/images/icebucket-challenge-3.avif',
+  '/images/icebucket-challenge-4.webp',
+  '/images/icebucket-challenge-5.jpg',
+    '/images/icebucket-challenge-6.webp'
 ];
 
 export const ImageCollage: React.FC = () => {
   return (
-    <div className="grid grid-cols-2 gap-4">
+    <div className="grid grid-cols-3 gap-4">
       {images.map((src, index) => (
         <motion.div
           key={index}
