@@ -1,6 +1,96 @@
 .slide.large-slide {
   width: 100%;
-  height: 80vh; /* Adjust the height as needed */
+  height: 100vh; /* Adjust the height as needed */
   padding: 20px;
   box-sizing: border-box;
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, rgba(19, 44, 149, 0.11), rgba(151, 17, 17, 0.07), rgba(88, 214, 74, 0.11), rgba(255, 226, 80, 0.22));
+}
+
+.custom-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.thank-you-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%; /* Adjust the width as needed */
+  height: 40vh; /* Adjust the height as needed */
+  text-align: center;
+  margin: auto; /* Center the slide */
+}
+
+.thank-you-languages {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.thank-you-languages p {
+  font-size: 1.5rem;
+  transform-origin: center;
+  position: relative;
+}
+
+.rotate-0 {
+  transform: rotate(0deg);
+}
+
+.rotate-30 {
+  transform: rotate(30deg);
+}
+
+.rotate-45 {
+  transform: rotate(45deg);
+}
+
+.rotate-60 {
+  transform: rotate(60deg);
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.rotate-120 {
+  transform: rotate(120deg);
+}
+
+.rotate-135 {
+  transform: rotate(135deg);
+}
+
+.rotate-150 {
+  transform: rotate(150deg);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.rotate-210 {
+  transform: rotate(210deg);
+}
+
+.rotate-225 {
+  transform: rotate(225deg);
+}
+
+.rotate-240 {
+  transform: rotate(240deg);
+}
+
+.rotate-270 {
+  transform: rotate(270deg);
+}
+
+.rotate-315 {
+  transform: rotate(315deg);
 }

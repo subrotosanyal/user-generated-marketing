@@ -124,6 +124,37 @@ export const slides = [
         )
     },
     {
+        id: 8,
+        title: "Thank You",
+        content: (
+            <Slide>
+                <div className="thank-you-slide">
+                    <div className="thank-you-languages">
+                        <p className="rotate-150" style={{ gridColumn: 1, gridRow: 1 }}>Thank You</p>
+                        <p className="rotate-45" style={{ gridColumn: 2, gridRow: 2 }}>Gracias</p>
+                        <p className="rotate-90" style={{ gridColumn: 3, gridRow: 3 }}>Merci</p>
+                        <p className="rotate-135" style={{ gridColumn: 4, gridRow: 4 }}>Danke</p>
+                        <p className="rotate-180" style={{ gridColumn: 5, gridRow: 5 }}>Grazie</p>
+                        <p className="rotate-225" style={{ gridColumn: 1, gridRow: 5 }}>ありがとう</p>
+                        <p className="rotate-270" style={{ gridColumn: 2, gridRow: 4 }}>谢谢</p>
+                        <p className="rotate-315" style={{ gridColumn: 3, gridRow: 2 }}>감사합니다</p>
+                        <p className="rotate-30" style={{ gridColumn: 4, gridRow: 1 }}>धन्यवाद</p>
+                        <p className="rotate-60" style={{ gridColumn: 5, gridRow: 3 }}>ধন্যবাদ</p>
+                        <p className="rotate-120" style={{ gridColumn: 1, gridRow: 3 }}>આભાર</p>
+                        <p className="rotate-150" style={{ gridColumn: 2, gridRow: 1 }}>நன்றி</p>
+                        <p className="rotate-210" style={{ gridColumn: 3, gridRow: 5 }}>ధన్యవాదాలు</p>
+                        <p className="rotate-240" style={{ gridColumn: 4, gridRow: 2 }}>شكرا</p>
+                        <p className="rotate-300" style={{ gridColumn: 5, gridRow: 4 }}>Спасибо</p>
+                        <p className="rotate-330" style={{ gridColumn: 1, gridRow: 2 }}>Obrigado</p>
+                        <p className="rotate-15" style={{ gridColumn: 2, gridRow: 3 }}>Kiitos</p>
+                        <p className="rotate-75" style={{ gridColumn: 3, gridRow: 4 }}>Dank u</p>
+                        <p className="rotate-105" style={{ gridColumn: 4, gridRow: 5 }}>Tack</p>
+                    </div>
+                </div>
+            </Slide>
+        )
+    },
+    {
         content: (
             <div>
                 <h2 className="text-3xl font-bold mb-6">References</h2>

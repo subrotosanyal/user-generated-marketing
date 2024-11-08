@@ -20,8 +20,8 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="max-w-7xl mx-auto py-12 px-4">
+    <div className="min-h-screen bg-gradient">
+      <div className="max-w-7xl mx-auto py-12 px-4 ">
           {slides[currentSlide].content}
         <Navigation
           currentSlide={currentSlide}
