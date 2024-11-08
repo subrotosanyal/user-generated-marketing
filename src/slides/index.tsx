@@ -130,41 +130,47 @@ export const slides = [
             <Slide>
                 <div className="thank-you-slide">
                     <div className="thank-you-languages">
-                        <p className="rotate-150" style={{ gridColumn: 1, gridRow: 1 }}>Thank You</p>
-                        <p className="rotate-45" style={{ gridColumn: 2, gridRow: 2 }}>Gracias</p>
-                        <p className="rotate-90" style={{ gridColumn: 3, gridRow: 3 }}>Merci</p>
-                        <p className="rotate-135" style={{ gridColumn: 4, gridRow: 4 }}>Danke</p>
-                        <p className="rotate-180" style={{ gridColumn: 5, gridRow: 5 }}>Grazie</p>
-                        <p className="rotate-225" style={{ gridColumn: 1, gridRow: 5 }}>ありがとう</p>
-                        <p className="rotate-270" style={{ gridColumn: 2, gridRow: 4 }}>谢谢</p>
-                        <p className="rotate-315" style={{ gridColumn: 3, gridRow: 2 }}>감사합니다</p>
-                        <p className="rotate-30" style={{ gridColumn: 4, gridRow: 1 }}>धन्यवाद</p>
-                        <p className="rotate-60" style={{ gridColumn: 5, gridRow: 3 }}>ধন্যবাদ</p>
-                        <p className="rotate-120" style={{ gridColumn: 1, gridRow: 3 }}>આભાર</p>
-                        <p className="rotate-150" style={{ gridColumn: 2, gridRow: 1 }}>நன்றி</p>
-                        <p className="rotate-210" style={{ gridColumn: 3, gridRow: 5 }}>ధన్యవాదాలు</p>
-                        <p className="rotate-240" style={{ gridColumn: 4, gridRow: 2 }}>شكرا</p>
-                        <p className="rotate-300" style={{ gridColumn: 5, gridRow: 4 }}>Спасибо</p>
-                        <p className="rotate-330" style={{ gridColumn: 1, gridRow: 2 }}>Obrigado</p>
-                        <p className="rotate-15" style={{ gridColumn: 2, gridRow: 3 }}>Kiitos</p>
-                        <p className="rotate-75" style={{ gridColumn: 3, gridRow: 4 }}>Dank u</p>
-                        <p className="rotate-105" style={{ gridColumn: 4, gridRow: 5 }}>Tack</p>
+                        <p className="rotate-150" style={{gridColumn: 1, gridRow: 1}}>Thank You</p>
+                        <p className="rotate-45" style={{gridColumn: 2, gridRow: 2}}>Gracias</p>
+                        <p className="rotate-90" style={{gridColumn: 3, gridRow: 3}}>Merci</p>
+                        <p className="rotate-135" style={{gridColumn: 4, gridRow: 4}}>Danke</p>
+                        <p className="rotate-180" style={{gridColumn: 5, gridRow: 5}}>Grazie</p>
+                        <p className="rotate-225" style={{gridColumn: 1, gridRow: 5}}>ありがとう</p>
+                        <p className="rotate-270" style={{gridColumn: 2, gridRow: 4}}>谢谢</p>
+                        <p className="rotate-315" style={{gridColumn: 3, gridRow: 2}}>감사합니다</p>
+                        <p className="rotate-30" style={{gridColumn: 4, gridRow: 1}}>धन्यवाद</p>
+                        <p className="rotate-60" style={{gridColumn: 5, gridRow: 3}}>ধন্যবাদ</p>
+                        <p className="rotate-120" style={{gridColumn: 1, gridRow: 3}}>આભાર</p>
+                        <p className="rotate-150" style={{gridColumn: 2, gridRow: 1}}>நன்றி</p>
+                        <p className="rotate-210" style={{gridColumn: 3, gridRow: 5}}>ధన్యవాదాలు</p>
+                        <p className="rotate-240" style={{gridColumn: 4, gridRow: 2}}>شكرا</p>
+                        <p className="rotate-300" style={{gridColumn: 5, gridRow: 4}}>Спасибо</p>
+                        <p className="rotate-330" style={{gridColumn: 1, gridRow: 2}}>Obrigado</p>
+                        <p className="rotate-15" style={{gridColumn: 2, gridRow: 3}}>Kiitos</p>
+                        <p className="rotate-75" style={{gridColumn: 3, gridRow: 4}}>Dank u</p>
+                        <p className="rotate-105" style={{gridColumn: 4, gridRow: 5}}>Tack</p>
                     </div>
                 </div>
+                <br/><br/><br/>
+                <Slide>
+                    <div>
+                        <h2 className="text-3xl font-bold mb-6">References</h2>
+                        <ul>
+                            <li>🔗 <a
+                                href="https://www.wikishark.com/?text_search=&values=4615356%2C7709432%2C13310809%2C35526534&search=&year=0&validate=1&view=2&gtype=0&factors="
+                                target="_blank" rel="noopener noreferrer">Wikishark</a></li>
+                            <li>🔗 <a
+                                href="https://www.researchgate.net/publication/372498477_Social_Media_Marketing_Performance_Analysis_of_the_Ice_Bucket_Challenge"
+                                target="_blank" rel="noopener noreferrer">ResearchGate</a></li>
+                            <li>🔗 <a href="https://www.als.org/understanding-als/what-is-als" target="_blank"
+                                     rel="noopener noreferrer">ALS Association</a></li>
+                            <li>🔗 <a
+                                href="https://www.cpajournal.com/2017/08/16/redeeming-value-social-media-ice-bucket-challenge-invigorated-als-association/"
+                                target="_blank" rel="noopener noreferrer">CPA Journal</a></li>
+                        </ul>
+                    </div>
+                </Slide>
             </Slide>
         )
     },
-    {
-        content: (
-            <div>
-                <h2 className="text-3xl font-bold mb-6">References</h2>
-                <ul>
-                    <li>🔗 <a href="https://www.wikishark.com/?text_search=&values=4615356%2C7709432%2C13310809%2C35526534&search=&year=0&validate=1&view=2&gtype=0&factors=" target="_blank" rel="noopener noreferrer">Wikishark</a></li>
-                    <li>🔗 <a href="https://www.researchgate.net/publication/372498477_Social_Media_Marketing_Performance_Analysis_of_the_Ice_Bucket_Challenge" target="_blank" rel="noopener noreferrer">ResearchGate</a></li>
-                    <li>🔗 <a href="https://www.als.org/understanding-als/what-is-als" target="_blank" rel="noopener noreferrer">ALS Association</a></li>
-                    <li>🔗 <a href="https://www.cpajournal.com/2017/08/16/redeeming-value-social-media-ice-bucket-challenge-invigorated-als-association/" target="_blank" rel="noopener noreferrer">CPA Journal</a></li>
-                </ul>
-            </div>
-        )
-    }
-];
+]
